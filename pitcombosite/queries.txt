@@ -1,0 +1,4 @@
+No Changes: Select * From (StartMove);
+Percent Window: Select * From (StartMove) Where PWindow = '(Percent Window)';
+Sort By: Select * From (StartMove) Order By (Sort By, Desc for damage);
+Kill Confirm: Select * From (StartMove) Where KillConfirm = (KillConfirm);
